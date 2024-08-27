@@ -1,0 +1,30 @@
+:root {
+    --bs-primary: #000000;
+    --bs-font-sans-serif: 'Roboto', sans-serif; 
+  }
+  
+  .btn-primary {
+    background-color: #000000;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-primary:hover {
+    background-color: #4e4d4d;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Mate SC", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  
+  *{
+    font-family: "Baskervville SC", serif;
+    font-weight: 400;
+    font-style: normal;
+  }

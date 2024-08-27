@@ -1,0 +1,44 @@
+
+
+h1{
+  font-family: "Baskervville SC", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.intro-container {
+  padding: 6rem 1rem 2rem; 
+}
+
+.intro-image {
+  max-width: 150px;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.intro-text {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .intro-container {
+    padding: 8rem 1rem 2rem; 
+  }
+
+  .intro-image {
+    max-width: 120px;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+    margin-top: 2rem;
+  }
+
+  .intro-text {
+    font-size: 1rem;
+  }
+}

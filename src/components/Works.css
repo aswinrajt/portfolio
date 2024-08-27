@@ -1,0 +1,81 @@
+.work-card {
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .work-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .view-work-button {
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .view-work-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+
+  
+/* Works.css */
+
+/* Define the keyframes for the side animation */
+@keyframes slideInFromLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Apply the animation to the cards */
+.work-card {
+  opacity: 0; /* Initially hidden */
+  transform: translateX(-100%); /* Start from the left */
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out; /* Smooth transition */
+}
+
+/* When the card is in view */
+.work-card.visible {
+  animation: slideInFromLeft 0.6s ease-out forwards; /* Apply animation */
+}
+
+
+/* Works.css */
+
+/* Ensure uniform size for all images */
+.work-card img {
+  height: 200px; /* Set a fixed height */
+  width: 100%; /* Ensure the image takes the full width of the card */
+  object-fit: cover; /* Cover the entire area without distorting the image */
+  object-position: center; /* Center the image within the frame */
+}
+
+/* Slide-in animation for cards */
+@keyframes slideInFromLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.work-card {
+  opacity: 0; /* Initially hidden */
+  transform: translateX(-100%); /* Start from the left */
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out; /* Smooth transition */
+}
+
+.work-card.visible {
+  animation: slideInFromLeft 0.6s ease-out forwards; 
+}
+
+#works{
+  background-color: rgb(255, 255, 255);
+}
