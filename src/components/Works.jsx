@@ -49,7 +49,7 @@ const Works = () => {
       title: 'SRK Portfolio',
       img: 'https://pbs.twimg.com/media/FyRt2fwaAAAssDB.jpg:large', 
       description: 'A React-based portfolio for Shah Rukh Khan, featuring his works and skills in a modern layout with interactive elements.',
-      link: 'https://example.com/project1'
+      link: 'https://effervescent-strudel-f2503e.netlify.app/'
     },
     { 
       title: 'Wifi mall navigation system',

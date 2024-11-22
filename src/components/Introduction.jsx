@@ -49,8 +49,8 @@ const Introduction = () => {
           </p>
           <Button 
             variant="primary"
-            href="path/to/your-resume.pdf"
-            download="Aswin_Raj_T_Resume.pdf"
+            href="src/assets/Aswin.pdf"
+            download="Aswin.pdf"
             className="d-block mx-auto mx-md-0"
           >
             Download Resume
